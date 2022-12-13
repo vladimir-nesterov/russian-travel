@@ -1,3 +1,9 @@
 .cover__overlay {
-  
+  background: #2A2C2F;
+  opacity: 0.3;
+  max-width: 100%;
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+  justify-self: stretch;
+  align-self: stretch;
 }
