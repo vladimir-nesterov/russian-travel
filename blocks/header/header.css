@@ -7,20 +7,26 @@
   grid-auto-columns:  min-content 18px;
 }
 
+@media screen and (max-width: 1280px) {
+  .header {
+    width: 92.5%;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .header {
-    max-width: 928px;
+    width: 90.625%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    max-width: 720px;
+    width: 93.7%;
   }
 }
 
 @media screen and (max-width: 425px) {
   .header {
-    max-width: 288px;
+    width: 71.2%;
   }
 }
