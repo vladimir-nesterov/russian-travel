@@ -1,5 +1,5 @@
 .header__lang-link {
-  margin: 18px 0 6px;
+  margin: 18px 0 6px 18px;
   padding: 0;
   font-family: 'Inter';
   font-style: normal;
@@ -11,9 +11,13 @@
   text-decoration: none;
 }
 
+.header__lang-link:first-of-type {
+  margin-left: 0;
+}
+
 @media screen and (max-width: 425px) {
   .header__lang-link {
-    margin: 14px 0 8px;
+    margin: 14px 0 8px 18px;
     font-size: 18px;
     line-height: 1.11;
   }

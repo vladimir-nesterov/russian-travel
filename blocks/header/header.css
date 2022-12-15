@@ -4,29 +4,29 @@
   margin: 0 auto;
   grid-template-columns: min-content 1fr;
   grid-auto-flow: column;
-  grid-auto-columns:  min-content 18px;
+  grid-auto-columns:  min-content;
 }
 
 @media screen and (max-width: 1280px) {
   .header {
-    width: 92.5%;
+    width: calc(1184 / 1280 * 100%);
   }
 }
 
 @media screen and (max-width: 1024px) {
   .header {
-    width: 90.625%;
+    width: calc(928 / 1024 * 100%);
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    width: 93.7%;
+    width: calc(720 / 768 * 100%);
   }
 }
 
 @media screen and (max-width: 425px) {
   .header {
-    width: 71.2%;
+    width: calc(288 / 320 * 100%);
   }
 }
