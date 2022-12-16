@@ -3,7 +3,7 @@
   max-width: 1184px;
   /*max-height: 740px;*/
   display: grid;
-  grid-template-rows: 1fr;
+  grid-template-rows: c;
   grid-template-columns: 1fr;
   align-items: stretch;
   justify-items: stretch;
