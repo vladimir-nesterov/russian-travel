@@ -5,7 +5,8 @@
   max-width: 100%;
 
   display: grid;
-  grid-template-columns: max-content(460px) max-content(484px);
+  grid-template-columns: minmax(calc(18px + 12px), 460px)
+                        minmax(calc(18px + 12px), 484px); 
   grid-template-rows: min-content
                       minmax(calc(18px + 12px), max-content)
                       minmax(calc(18px + 12px), max-content)
