@@ -1,4 +1,22 @@
 .place {
   margin: 0;
   padding: 0;
+
+  max-width: 100%;
+
+  display: grid;
+  grid-template-columns: max-content(460px) max-content(484px);
+  grid-template-rows: min-content
+                      minmax(calc(18px + 12px), max-content)
+                      minmax(calc(18px + 12px), max-content)
+                      minmax(calc(18px + 12px), max-content);
+  justify-items: start;
+  align-items: end;
+  align-content:space-between;
+  justify-content: space-between;
+}
+
+.place::after {
+  content: '';
+  display: table;
 }

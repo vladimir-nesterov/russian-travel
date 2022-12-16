@@ -9,6 +9,11 @@
   text-decoration-line: underline;
   color: #FFFFFF;
   max-width: 456px;
+
+
+  grid-column: 2;
+  grid-row: 2/3;
+  align-self: end;
 }
 
 .place__link:hover {

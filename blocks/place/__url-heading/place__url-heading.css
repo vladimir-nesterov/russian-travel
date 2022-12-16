@@ -9,4 +9,8 @@
   letter-spacing: 2px;
   color: #AAAAAA;
   max-width: 456px;
+
+  grid-column: 2;
+  grid-row: 1/2;
+  /*align-self: end;*/
 }

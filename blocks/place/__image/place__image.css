@@ -1,3 +1,11 @@
 .place__image {
   max-width: 460px;
+  object-fit: cover;
+
+  margin-top: 48px;
+
+  grid-column: 1;
+  grid-row: 3/-1;
+  align-self: start;
+  justify-self: center;
 }
