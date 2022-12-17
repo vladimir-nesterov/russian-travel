@@ -1,5 +1,5 @@
 .place__paragraph {
-  margin: 0;
+  margin: 27px 0 0;
   padding: 0;
   font-family: 'Inter';
   font-style: normal;
@@ -9,18 +9,6 @@
   max-width: 484px;
 }
 
-.place__paragraph:nth-of-type(2) {
-  margin-top: 48px;
-  grid-column: 2;
-  grid-row: 3/4;
-  align-self: start;
-
+.place__paragraph:first-child {
+  margin: 0;
 }
-
-.place__paragraph:nth-of-type(3) {
-  grid-column: 2;
-  grid-row: 4/5;
-  align-self: start;
-  margin-top: 26px;
-}
-

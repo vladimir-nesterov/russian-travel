@@ -1,23 +1,21 @@
 .place {
   margin: 0;
-  padding: 0;
+  padding: 80px 0 0;
 
   max-width: 100%;
 
   display: grid;
   grid-template-columns: minmax(calc(18px + 12px), 460px)
-                        minmax(calc(18px + 12px), 484px); 
-  grid-template-rows: min-content
-                      minmax(calc(18px + 12px), max-content)
-                      minmax(calc(18px + 12px), max-content)
-                      minmax(calc(18px + 12px), max-content);
+                        minmax(calc(18px + 12px), 484px);
+  grid-template-rows: auto;
   justify-items: start;
   align-items: end;
-  align-content:space-between;
+  align-content:end;
   justify-content: space-between;
+  row-gap: 48px;
+  column-gap: 40px;
 }
 
-.place::after {
-  content: '';
-  display: table;
+.place:first-child {
+  padding: 0;
 }
