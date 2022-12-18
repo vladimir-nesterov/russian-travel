@@ -3,8 +3,8 @@
   width: 100%;
   padding-bottom: calc(740 / 1184 * 100%);
   background-position: bottom;
-  grid-column: 1/-1;
-  grid-row: 1/-1;
+  grid-column: 1;
+  grid-row: 1;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
