@@ -4,7 +4,8 @@
   display: grid;
   grid-template-rows: repeat(3, minmax(min-content, max-content));
   grid-template-columns: repeat(4, minmax(min-content, max-content));
-  gap: 16px;
+  row-gap: 13px;
+  column-gap: 17px;
   object-fit: cover;
 }
 
