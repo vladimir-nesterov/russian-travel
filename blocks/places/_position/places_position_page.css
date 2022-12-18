@@ -1,0 +1,16 @@
+.places_position_page {
+  margin: 92px auto 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .places_position_page {
+    margin: 88px auto 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .places_position_page {
+    margin: 64px auto 0;
+  }
+}
