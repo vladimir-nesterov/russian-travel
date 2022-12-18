@@ -1,3 +1,34 @@
 .footer {
   max-width: 1184px;
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1280px) {
+  .footer {
+    max-width: calc(1184 / 1280 * 100%) ;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    max-width: calc(928 / 1024 * 100%) ;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    max-width: calc(720 / 768 * 100%) ;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer {
+    max-width: calc(186 / 320 * 100%) ;
+    grid-template-columns: max-content;
+    grid-template-rows: repeat(2, max-content);
+    align-content: space-between;
+    row-gap: 48px;
+  }
 }
