@@ -23,9 +23,8 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
   .footer {
-    max-width: calc(186 / 320 * 100%) ;
     grid-template-columns: max-content;
     grid-template-rows: repeat(2, max-content);
     align-content: space-between;
