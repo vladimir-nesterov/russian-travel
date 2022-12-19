@@ -38,7 +38,7 @@
     max-width: calc(288 / 320 * 100%);
     grid-template-rows: repeat(12, minmax(min-content, max-content));
     grid-template-columns: repeat(1, minmax(min-content, max-content));
-    gap: 12px;
+    row-gap: 8px;
   }
 }
 
