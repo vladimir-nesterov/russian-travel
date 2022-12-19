@@ -1,3 +1,9 @@
 .lead_position_page {
   margin: 56px auto 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead_position_page {
+    margin: 48px auto 0;
+  }
+}
