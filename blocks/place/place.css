@@ -28,7 +28,6 @@
   .place {
     padding: 72px 0 0;
     grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
-    column-gap: 28px;
   }
 }
 

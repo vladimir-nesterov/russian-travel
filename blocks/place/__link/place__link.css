@@ -8,11 +8,11 @@
   line-height: 1.22;
   color: #FFFFFF;
   display: block;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .place__link:hover {
   opacity: 0.8;
-  transition: opacity 1s ease-in-out;
 }
 
 @media screen and (max-width: 425px) {
