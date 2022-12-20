@@ -1,3 +1,9 @@
 .main {
-  
+  padding-top: 56px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead_position_page {
+    padding-top: 48px;
+  }
 }
