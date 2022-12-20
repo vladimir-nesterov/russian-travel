@@ -10,7 +10,7 @@
   margin: auto;
   position: relative;
   z-index: 2;
-  transition: opacity 1s ;
+  transition: opacity 1s;
 }
 
 .cover:hover .cover__overlay {
