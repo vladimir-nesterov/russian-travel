@@ -2,13 +2,7 @@
   margin: 92px auto 0;
 }
 
-@media screen and (max-width: 768px) {
-  .cover_position_page {
-    margin: 90px auto 0;
-  }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
   .cover_position_page {
     margin: 66px auto 0;
   }
