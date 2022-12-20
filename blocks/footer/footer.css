@@ -7,19 +7,19 @@
 
 @media screen and (max-width: 1280px) {
   .footer {
-    max-width: calc(1184 / 1280 * 100%) ;
+    max-width: calc(1184 / 1280 * 100%);
   }
 }
 
 @media screen and (max-width: 1024px) {
   .footer {
-    max-width: calc(928 / 1024 * 100%) ;
+    max-width: calc(928 / 1024 * 100%);
   }
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-    max-width: calc(720 / 768 * 100%) ;
+    max-width: calc(720 / 768 * 100%);
   }
 }
 
