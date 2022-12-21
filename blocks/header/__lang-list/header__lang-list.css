@@ -1,0 +1,9 @@
+.header__lang-list {
+  margin: 18px 0 6px;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(fit-content, min-content);
+  grid-auto-flow: column;
+  column-gap: 18px;
+}
