@@ -21,7 +21,13 @@
 @media screen and (max-width: 650px) {
   .place__paragraph {
     margin-left: auto;
-    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
     max-width: calc(289 / 320 * 100%);
+  }
+
+  .place__paragraph:first-child {
+    margin-left: auto;
+    margin-right: auto;
   }
 }

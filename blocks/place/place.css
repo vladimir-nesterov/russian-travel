@@ -8,7 +8,7 @@
   justify-items: start;
   align-items: end;
   align-content:end;
-  justify-content: space-between;
+  justify-content: center;
   row-gap: 48px;
   column-gap: 40px;
 }
@@ -31,7 +31,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 650px) {
   .place {
     padding: 50px 0 0;
     grid-template-columns: minmax(min-content, 100%);

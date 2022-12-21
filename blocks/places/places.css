@@ -1,6 +1,7 @@
 .places {
+  box-sizing: border-box;
   margin: 0 auto 0;
-  padding: 92px 0 0;
+  padding: 92px 20px 0;
   max-width: 984px;
 }
 
@@ -20,5 +21,7 @@
   .places {
     max-width: 100%;
     padding-top: 64px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
