@@ -1,8 +1,8 @@
 .cover {
   max-width: 1184px;
-  display: grid;
+  /*display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr;*/
 }
 
 @media screen and (max-width: 1280px) {
