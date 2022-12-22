@@ -1,3 +1,4 @@
 .place__url-container {
   width: 100%;
+  align-self: end;
 }
